@@ -10,15 +10,22 @@ function App() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/product">Product</NavLink>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </nav>
       <Routes>
         <Route index element={<h1>Homepage</h1>} />
         <Route
-          path="product"
-          element={<h1>That product you really wanted</h1>}
+          path="about"
+          element={<h1>About</h1>}
+        />
+        <Route
+          path="contact"
+          element={<h1>Contact</h1>}
         />
       </Routes>
     </>
