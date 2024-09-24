@@ -27,6 +27,7 @@ function App() {
           path="contact"
           element={<h1>Contact</h1>}
         />
+        <Route path="*" element={<h1>404 page not found</h1>} />
       </Routes>
     </>
   );
